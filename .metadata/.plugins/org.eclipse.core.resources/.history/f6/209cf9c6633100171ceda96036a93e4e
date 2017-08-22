@@ -1,0 +1,25 @@
+package com.taotao.service.impl;
+
+import org.springframework.stereotype.Service;
+
+/**
+ * 商品管理Service
+ * <p>Title: ItemServiceImpl</p>
+ * <p>Description: </p>
+ * <p>Company: www.itcast.com</p> 
+ * @author	入云龙
+ * @date	2015年9月2日上午10:47:14
+ * @version 1.0
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+	
+	@Override
+	public TbItem getItemById(long itemId) {
+		
+		return null;
+	}
+
+	
+}
+
